@@ -16,11 +16,12 @@ public class Sieve {
 		int arraylength = 0;
 		boolean[]numbers = new boolean[n];
 		for (int i = 0; i <= n; i++) {
-			if ((i == 2) || (i == 3) || (i == 5 ) || (i == 7)) {
-				arraylength++;}
-			else if ((i %2 != 0) && (i %3 != 0) && (i %5 != 0) && (i % 7 != 0) && (i != 1)) {
-				arraylength++;
-			}
+		}
+		while (numbers[position] = false) {
+			for (int j = 0; j <= n; j++) {
+			if (numbers[position] %j == 0) {
+				numbers[position] = true;
+			}}
 		}
 		int[]array = new int[arraylength];
 		for (int i = 0; i <= n; i++) {
